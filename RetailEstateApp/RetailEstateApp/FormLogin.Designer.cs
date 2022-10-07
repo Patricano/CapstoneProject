@@ -18,6 +18,7 @@
                 components.Dispose();
             }
             base.Dispose(disposing);
+            
         }
 
         #region Windows Form Designer generated code
@@ -46,7 +47,7 @@
             this.usernameTextBox.Name = "usernameTextBox";
             this.usernameTextBox.Size = new System.Drawing.Size(302, 32);
             this.usernameTextBox.TabIndex = 0;
-            this.usernameTextBox.TextChanged += new System.EventHandler(this.usernameTextBox_TextChanged);
+  
             // 
             // passwordTextBox
             // 
@@ -81,7 +82,7 @@
             this.usernameLabel.Size = new System.Drawing.Size(113, 26);
             this.usernameLabel.TabIndex = 3;
             this.usernameLabel.Text = "Username";
-            this.usernameLabel.Click += new System.EventHandler(this.usernameLabel_Click);
+
             // 
             // passwordLabel
             // 
@@ -106,7 +107,7 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Forgot Password";
             // 
-            // Form1
+            // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -117,7 +118,7 @@
             this.Controls.Add(this.loginButton);
             this.Controls.Add(this.passwordTextBox);
             this.Controls.Add(this.usernameTextBox);
-            this.Name = "Form1";
+            this.Name = "FormLogin";
             this.Text = "REHE";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

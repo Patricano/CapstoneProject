@@ -22,14 +22,6 @@ namespace RetailEstateApp
 
         }
 
-        private void usernameTextBox_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void usernameLabel_Click(object sender, EventArgs e)
-        {
-
-        }
+    
     }
 }

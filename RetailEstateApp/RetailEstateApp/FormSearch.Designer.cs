@@ -42,7 +42,7 @@
             this.searchPropertyLabel.Size = new System.Drawing.Size(309, 46);
             this.searchPropertyLabel.TabIndex = 1;
             this.searchPropertyLabel.Text = "Search Property";
-            this.searchPropertyLabel.Click += new System.EventHandler(this.label2_Click);
+      
             // 
             // propertySearchTextBox
             // 
@@ -73,6 +73,7 @@
             this.Name = "FormSearch";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "REHE- Search";
+            this.Load += new System.EventHandler(this.FormSearch_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

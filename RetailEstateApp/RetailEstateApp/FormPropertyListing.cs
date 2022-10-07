@@ -10,18 +10,13 @@ using System.Windows.Forms;
 
 namespace RetailEstateApp
 {
-    public partial class FormSearch : Form
+    public partial class FormPropertyListing : Form
     {
-        public FormSearch()
+        public FormPropertyListing()
         {
             InitializeComponent();
         }
 
-       
-
-        private void FormSearch_Load(object sender, EventArgs e)
-        {
-
-        }
+    
     }
 }
